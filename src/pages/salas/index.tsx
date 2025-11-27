@@ -43,8 +43,8 @@ export default function Salas() {
             style={style.card}
             onPress={() =>
               navigation.navigate(
-                "salasAgenda" as never, // Nome da rota de destino
-                { sala: sala } as never // Parâmetros passados com uma chave
+                "salasAgenda" as never, 
+                { sala: sala } as never 
               )
             }
           >
